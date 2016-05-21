@@ -2,7 +2,7 @@
     "name": "java-debug",
     "displayName": "Java Debug",
     "description": "A simple debug extension for the Java",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "DSnake",
     "icon": "images/icon.png",
     "galleryBanner": {
