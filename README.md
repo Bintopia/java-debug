@@ -30,7 +30,7 @@ Open up VS Code and hit F1 and type ext select "Extensions:Install Extension" an
 + File a bug in [*GitHub Issues*](https://github.com/D-Snake/vscode-java-debug/issues).
 
 ## License
->GPL
+>Apache License 2.0
 
 ##Note
 + Requires [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
