@@ -2,7 +2,7 @@
 
 A simple debug extension for the Java. It is based on the javac command line debugger.
 
-![Searching in markplace](images/marketplace-search.png)
+![Searching in marketplace](images/marketplace-search.png)
 
 ##Functionality
 First, toggle output:
@@ -34,4 +34,4 @@ Open up VS Code and hit F1 and type ext select "Extensions:Install Extension" an
 
 ##Note
 + Requires [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
-+ *JAVA_HOME* environment variable should be settled and add to *PATH* environment variable aslo needed.
++ *JAVA_HOME* environment variable should be settled and add to *PATH* environment variable also needed.
