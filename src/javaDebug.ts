@@ -44,7 +44,7 @@ export function activate(context: vscode.ExtensionContext) {
                 outputChannel.appendLine(stderr);
                 return;
             }
-            outputChannel.appendLine('Successed!');
+            outputChannel.appendLine('Success!');
         });
     });
 
