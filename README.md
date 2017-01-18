@@ -23,11 +23,11 @@ Open up VS Code and hit F1 and type ext select "Extensions:Install Extension" an
 ![Installation](images/intall.gif)
 
 ##Fork
-> git clone https://github.com/D-Snake/vscode-java-debug.git
+> git clone https://github.com/Johnothing/vscode-java-debug.git
 
 ##Feedback
 + [E-mail Me](mailto:dengbin80@live.com)
-+ File a bug in [*GitHub Issues*](https://github.com/D-Snake/vscode-java-debug/issues).
++ File a bug in [*GitHub Issues*](https://github.com/Johnothing/vscode-java-debug/issues).
 
 ## License
 >Apache License 2.0
