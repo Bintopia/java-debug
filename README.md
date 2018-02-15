@@ -1,4 +1,4 @@
-# [Java Debug](http://d-snake.github.io/vscode-java-debug)
+# [Java Debug](http://go-bin.github.io/vscode-java-debug)
 
 A simple debug extension for the Java. It is based on the javac command line debugger.
 
@@ -23,11 +23,11 @@ Open up VS Code and hit F1 and type ext select "Extensions:Install Extension" an
 ![Installation](images/intall.gif)
 
 ## Fork
-> git clone https://github.com/D-Snake/vscode-java-debug.git
+> git clone https://github.com/go-bin/vscode-java-debug.git
 
 ## Feedback
 + [E-mail Me](mailto:dengbin80@live.com)
-+ File a bug in [*GitHub Issues*](https://github.com/D-Snake/vscode-java-debug/issues).
++ File a bug in [*GitHub Issues*](https://github.com/go-bin/vscode-java-debug/issues).
 
 ## License
 >Apache License 2.0

@@ -1,69 +1,69 @@
 {
-    "name": "java-debug",
-    "displayName": "Java Debug",
-    "description": "A simple debug extension for the Java",
-    "version": "0.0.2",
-    "publisher": "DSnake",
-    "icon": "images/icon.png",
-    "galleryBanner": {
-        "color": "#38f",
-        "theme": "dark"
-    },
-    "license": "Apache License 2.0",
-    "bugs": {
-        "url": "https://github.com/D-Snake/vscode-java-debug/issues"
-    },
-    "homepage": "http://d-snake.github.io/vscode-java-debug/",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/D-Snake/vscode-java-debug.git"
-    },
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Languages",
-        "Other"
+  "name": "java-debug",
+  "displayName": "Java Debug",
+  "description": "A simple debug extension for the Java",
+  "version": "0.0.2",
+  "publisher": "DSnake",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#38f",
+    "theme": "dark"
+  },
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/Johnothing/vscode-java-debug/issues"
+  },
+  "homepage": "http://Johnothing.github.io/vscode-java-debug/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Johnothing/vscode-java-debug.git"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Languages",
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:java",
+    "onCommand:javaDebug.compile",
+    "onCommand:javaDebug.run"
+  ],
+  "main": "./out/src/javaDebug",
+  "contributes": {
+    "commands": [
+      {
+        "command": "javaDebug.compile",
+        "title": "Java: compile"
+      },
+      {
+        "command": "javaDebug.run",
+        "title": "Java: run"
+      }
     ],
-    "activationEvents": [
-        "onLanguage:java",
-        "onCommand:javaDebug.compile",
-        "onCommand:javaDebug.run"
-    ],
-    "main": "./out/src/javaDebug",
-    "contributes": {
-        "commands": [
-            {
-                "command": "javaDebug.compile",
-                "title": "Java: compile"
-            },
-            {
-                "command": "javaDebug.run",
-                "title": "Java: run"
-            }
-        ],
-        "keybindings": [
-            {
-                "command": "javaDebug.compile",
-                "key": "alt+c",
-                "mac": "alt+c",
-                "when": "editorTextFocus"
-            },
-            {
-                "command": "javaDebug.run",
-                "key": "alt+r",
-                "mac": "alt+r",
-                "when": "editorTextFocus"
-            }
-        ]
-    },
-    "scripts": {
-        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install"
-    },
-    "devDependencies": {
-        "typescript": "^1.8.5",
-        "vscode": "^0.11.0"
-    }
+    "keybindings": [
+      {
+        "command": "javaDebug.compile",
+        "key": "alt+c",
+        "mac": "alt+c",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "javaDebug.run",
+        "key": "alt+r",
+        "mac": "alt+r",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "typescript": "^2.1.5",
+    "vscode": "^1.0.3"
+  }
 }
