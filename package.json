@@ -11,12 +11,12 @@
   },
   "license": "Apache License 2.0",
   "bugs": {
-    "url": "https://github.com/Johnothing/vscode-java-debug/issues"
+    "url": "https://github.com/BinZone/java-debug/issues"
   },
-  "homepage": "http://Johnothing.github.io/vscode-java-debug/",
+  "homepage": "http://binzone.github.io/java-debug/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Johnothing/vscode-java-debug.git"
+    "url": "https://github.com/BinZone/java-debug.git"
   },
   "engines": {
     "vscode": "^1.0.0"
